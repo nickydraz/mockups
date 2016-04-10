@@ -1,0 +1,31 @@
+/* Custom Styles */
+
+.footer .container {
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+.middle {
+    padding-top: 80px;
+}
+
+
+/* Header */
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    font-size: 1.7em;
+    color: #777;
+    letter-spacing: -1px;
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    padding-bottom: 15px;
+}
