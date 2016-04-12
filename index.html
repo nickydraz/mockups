@@ -1,26 +1,33 @@
 <html>
 
 <head>
+    <!-- Viewport -->
+    <meta name='viewport' content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Style links -->
     <link type='text/css' rel="stylesheet" href='boot/css/bootstrap.min.css'>
     <link type="text/css" rel="stylesheet" href="boot/js/bootstrap.min.js">
     <link type="text/css" rel="stylesheet" href="boot/fonts/glyphicons-halflings-regular.ttf">
     <link type="text/css" rel="stylesheet" href="css/sticky-footer">
     <link type="text/css" rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
     <div class='navbar navbar-default navbar-fixed-top'>
-        <div class='container'>
+        <div class='container-fluid'>
             <div class='navbar-header'>
                 <div class='navbar-brand'>
-                    <a id='logo' href='#'>Sharing Connections</a>
+                    <a id='logo' href='#'><img id='logoImg' src="images/SC_logo.png" alt="Sharing Connections Logo"></img>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class='container middle'>
+    <div class='container main'>
         <div class='row'>
-            <div class='col-md-6 col-md-offset-3 well'>
+            <div class='col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 well'>
                 <form>
                     <div class="form-group">
                         <label for="userID">User ID</label>
@@ -30,10 +37,7 @@
                         <label for="password">Password</label>
                         <input type="password" class="form-control" id="password" placeholder="Password">
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                    <br />
-                    <br />
-                    <a href='#'>Forgot password?</a>
+                    <button type="submit" class="btn btn-warning">Login</button>
                 </form>
             </div>
         </div>
@@ -41,11 +45,11 @@
 
     <div class='footer'>
         <div class="container">
-            <div class='col-xs-1'>
+            <div class='col-xs-4 col-md-1'>
                 2016
             </div>
-            <div class='col-xs-1 col-xs-offset-10'>
-                <a href='#'>About</a>
+            <div class='col-xs-4 col-xs-offset-4 col-md-1 col-md-offset-10'>
+                <a href='about.html'>About</a>
             </div>
         </div>
     </div>

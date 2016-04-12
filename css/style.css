@@ -1,12 +1,20 @@
 /* Custom Styles */
 
+body {
+    background-color: #22ADC9;
+}
+
 .footer .container {
-    max-width: 100%;
+    max-width: 95%;
     padding-top: 20px;
 }
 
-.middle {
-    padding-top: 80px;
+.footer a {
+    float: right;
+}
+
+.main {
+    padding-top: 120px;
 }
 
 
@@ -18,7 +26,8 @@
     font-size: 1.7em;
     color: #777;
     letter-spacing: -1px;
-    padding-top: 9px;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: bold;
 }
 
@@ -27,5 +36,5 @@
 }
 
 .navbar {
-    padding-bottom: 15px;
+    padding-bottom: 37px;
 }
