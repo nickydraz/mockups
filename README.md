@@ -1,5 +1,5 @@
 <h1>Sharing Connections Mockups</h1>
-<p>These are mockups for the Sharinc Connections scheduling web applicaiton, being developed by North Central College's CSC495 class.</p>
+<p>These are mockups for the Sharing Connections scheduling web applicaiton, being developed by North Central College's CSC495 class.</p>
 <p>The initial screens were designed by Jennifer Dust and William Krieger. The HTML mockups are being developed by Nicholas Drazenovic and Emily Huizenga</p>
 
 <p>The UX V1.0 PDF can be found within this repository. These are the initial screens that were drafted for the web app.<p>
