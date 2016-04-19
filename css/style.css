@@ -22,6 +22,7 @@ a {
     background-color: white;
     padding-top: 30px;
     margin-bottom: 90px;
+    padding-bottom: 30px;
 }
 
 .green-icon {
@@ -69,7 +70,10 @@ a {
     color: #22ADC9;
 }
 
+
 /* TABLE */
+
+
 /* Custom Styles */
 
 body {
