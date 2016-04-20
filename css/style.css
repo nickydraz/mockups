@@ -33,6 +33,14 @@ a {
     font-size: 18px;
 }
 
+.btn-wide {
+    width: 40%;
+}
+
+.extra-right-margin {
+    margin-right: 65px;
+}
+
 
 /* Header */
 
@@ -70,11 +78,8 @@ a {
     color: #22ADC9;
 }
 
-
-<<<<<<< HEAD
-=======
+<<<<<<< HEAD=======
 /* TABLE */
-
 
 >>>>>>> origin/master
 /* Custom Styles */
