@@ -14,12 +14,12 @@
   - Reports.2
   - Reports.3
   - Admin.1
+  - Admin.2
   
 <h2>Current List of Remaining Screens</h2>
   - Home.2
   - Home.3
   - Schedule.2
-  - Admin.2
   - Admin.3
   
   
