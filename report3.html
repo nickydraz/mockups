@@ -39,37 +39,38 @@
         </div>
     </div>
 
-    <div class="container white-container">
-        <center>
-            <p>Select a pickup date to generate a PDF report.</p>
-        </center>
+    <div class="container">
         <div class="row">
-            <div class="col-xs-8 col-xs-offset-4">
-                Pickup Day:
-                <select>
-                    <option value="May 5">May 5</option>
-                    <option value="May 3">May 3</option>
-                    <option value="April 22">April 22</option>
-                    <option value="April 15">April 15</option>
-                    <option value="April 12">April 12</option>
-                    <option value="April 5">April 5</option>
-                </select>
-                <br>
-                <br> Save As:
-                <input type="text" placeholder="example.pdf">
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-xs-1 col-xs-offset-4">
-                <a href="reports1.html">
-                    <btn class="btn btn-success">OK</btn>
-                </a>
-            </div>
-            <div class="col-xs-1 col-xs-offset-1">
-                <a href="reports1.html">
-                    <btn class="btn btn-danger">Cancel</btn>
-                </a>
+            <div class="col-xs-4 col-xs-offset-4 well">
+
+                <p class="text-center">Select a pickup date to generate a PDF report.</p>
+
+                <form>
+                    <div class="form-group">
+                        Pickup Day:
+                        <select class="form-control">
+                            <option value="May 5">May 5</option>
+                            <option value="May 3">May 3</option>
+                            <option value="April 22">April 22</option>
+                            <option value="April 15">April 15</option>
+                            <option value="April 12">April 12</option>
+                            <option value="April 5">April 5</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        Save As:
+                        <input type="text" class="form-control" placeholder="example.pdf">
+                    </div>
+                    <div class="form-group">
+                        <a href="reports1.html">
+                            <btn class="btn btn-success btn-wide extra-right-margin">OK</btn>
+                        </a>
+                        <a href="reports1.html">
+                            <btn class="btn btn-danger btn-wide">Cancel</btn>
+                        </a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
