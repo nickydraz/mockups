@@ -28,12 +28,8 @@
   
 <br />
 <h2>Change Log</h2>
-<ul>
-  <li>
-    <h3>April 18, 2016</h3>
-    - Top level screens are complete. Login, Home.1, Schedule.1, Reports.1, and Admin.1.
-    - Some lower level screens are completed as well: Schedule.3, Reports.2, and Reports.3.
-    - Next goal is refinement of current screens, then developing the remaining screens for the application.
-    - Need to have all screens completed and polished by April 29, 2016 for demo with Sharing Connections and various North Central College faculty/staff.
-  </li>
-</ul>
+<h3>April 18, 2016</h3>
+- Top level screens are complete. Login, Home.1, Schedule.1, Reports.1, and Admin.1.
+- Some lower level screens are completed as well: Schedule.3, Reports.2, and Reports.3.
+- Next goal is refinement of current screens, then developing the remaining screens for the application.
+- Need to have all screens completed and polished by April 29, 2016 for demo with Sharing Connections and various North Central College faculty/staff.
