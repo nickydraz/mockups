@@ -29,6 +29,10 @@
 <br />
 <h2>Change Log</h2>
 
+<h3>April 22, 2016</h3>
+- Organized the files into a logical folders
+- Changed links in each file to reflect new organization
+
 <h3>April 19, 2016</h3>
 - Completed Reports.2, Reports.3, and Admin.2
 - Added more style
