@@ -9,6 +9,7 @@
   - Login
   - Home.1
   - Schedule.1
+  - Schedule.2
   - Schedule.3
   - Reports.1
   - Reports.2
@@ -19,7 +20,6 @@
 <h2>Current List of Remaining Screens</h2>
   - Home.2
   - Home.3
-  - Schedule.2
   - Admin.3
   
   
