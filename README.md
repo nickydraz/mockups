@@ -30,8 +30,10 @@
 <h2>Change Log</h2>
 
 <h3>April 23, 2016</h3>
-- Made clickable table row in Admin.1 which links to User edit page
+- Made clickable table row in Admin.1, which links to User edit page
 - Created Admin.3 page
+- Made clickable table row in Schedule.1, which links to Schedule.3
+- Added titles to pages
 
 <h3>April 22, 2016</h3>
 - Organized the files into a logical folders
