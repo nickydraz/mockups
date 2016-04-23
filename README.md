@@ -16,11 +16,11 @@
   - Reports.3
   - Admin.1
   - Admin.2
+  - Admin.3
   
 <h2>Current List of Remaining Screens</h2>
   - Home.2
   - Home.3
-  - Admin.3
   
   
   
@@ -28,6 +28,10 @@
   
 <br />
 <h2>Change Log</h2>
+
+<h3>April 23, 2016</h3>
+- Made clickable table row in Admin.1 which links to User edit page
+- Created Admin.3 page
 
 <h3>April 22, 2016</h3>
 - Organized the files into a logical folders
