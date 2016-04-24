@@ -76,6 +76,10 @@ a {
     margin-left: 65px;
 }
 
+.table-hover>tbody>tr:hover {
+    background-color: #22ADC9;
+}
+
 
 /* Header */
 
