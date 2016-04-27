@@ -54,10 +54,14 @@ a {
 }
 
 
-/* Needed ot make the buttons larger for some screens */
+/* Needed to make the buttons larger for some screens */
 
 .btn-wide {
     width: 40%;
+}
+
+.btn-50 {
+    width: 50%;
 }
 
 
@@ -65,6 +69,10 @@ a {
 
 .extra-right-margin {
     margin-right: 65px;
+}
+
+.extra-top-margin {
+    margin-top: 52px;
 }
 
 .calendar {
@@ -98,6 +106,10 @@ a {
 
 input[type=number] {
     text-align: right;
+}
+
+.checkbox {
+    margin: 20 0 0 0;
 }
 
 
