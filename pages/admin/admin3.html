@@ -1,3 +1,4 @@
+<!-- MANAGE USER PAGE -->
 <!DOCTYPE html>
 
 <head>
@@ -45,11 +46,13 @@
     <div class="container">
         <div class="row">
             <div class='col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 well'>
-                <h4 class="text-center">Manage User</h4>
+                <h3 class="text-center">Manage User</h3>
+
                 <form>
                     <h5>User ID: profBill</h5>
+                    <h5>Email: wtkrieger@noctrl.edu</h5>
                     <div class="form-group">
-                        <h5>Change Password</h5>
+                        <h5 class="text-center">Change Password</h5>
                         <label for="pNew">New Password: </label>
                         <input type="password" class="form-control" id="pNew">
                     </div>
@@ -58,12 +61,7 @@
                         <input type="password" class="form-control" id="pConf">
                     </div>
                     <div class="form-group">
-                        <a href="admin3.html">
-                            <btn class="btn btn-success btn-wide extra-right-margin">Update Password</btn>
-                        </a>
-                    </div>
-                    <div class="form-group">
-                        <h5>Change User Type</h5>
+                        <h5 class="text-center">Change User Type</h5>
                         <label for="userType">User Type: </label>
                         <select class="form-control">
                             <option value="standard">Standard</option>
@@ -71,19 +69,21 @@
                             <option value="entry">Entry</option>
                         </select>
                     </div>
+                    <br>
                     <div class="form-group">
                         <a href="admin3.html">
-                            <btn class="btn btn-success btn-wide extra-right-margin">Update Type</btn>
+                            <btn class="btn btn-success btn-wide extra-right-margin">Update User</btn>
+                        </a>
+                        <a href="admin1.html">
+                            <btn class="btn btn-info btn-wide">Cancel</btn>
                         </a>
                     </div>
                     <br>
-                    <center>
-                        <div class="form-group">
-                            <a href="admin1.html">
-                                <btn class="btn btn-danger btn-wide">Remove User</btn>
-                            </a>
-                        </div>
-                    </center>
+                    <div class="form-group text-center">
+                        <a href="admin1.html">
+                            <btn class="btn btn-danger btn-wide">Remove User</btn>
+                        </a>
+                    </div>
                 </form>
 
             </div>
