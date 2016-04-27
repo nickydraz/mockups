@@ -7,6 +7,8 @@
 <h2>Current List of Completed Screens</h2>
   - Login
   - Home.1
+  - Home.2
+  - Home.3
   - Schedule.1
   - Schedule.2
   - Schedule.3
@@ -17,12 +19,14 @@
   - Admin.2
   - Admin.3
   
-<h2>Current List of Remaining Screens</h2>
-  - Home.2 (Jennifer D)
-  - Home.3 (Jennifer D)
-  
   
 <h2>Change Log</h2>
+
+<h4>April 26, 2016</h4>
+- Home.2 and Home.3 added
+- Modified pages for UX v1.1
+- Fixed some of the pages so they are more mobile ready
+- Various style fixes
 
 <h4>April 23, 2016</h4>
 - Made clickable table row in Admin.1, which links to User edit page
