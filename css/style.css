@@ -76,19 +76,26 @@ a {
     margin-left: 65px;
 }
 
+.table-hover>tbody>tr:hover {
+    background-color: #22ADC9;
+    color: white;
+}
+
 
 /* formating for Home2*/
-.red
-{
-	color: #FD0004;
-}
-.half-width{
-	width: 50%;	
+
+.red {
+    color: #FD0004;
 }
 
-.padding-top{
-	padding-top: 20px;	
+.half-width {
+    width: 50%;
 }
+
+.padding-top {
+    padding-top: 20px;
+}
+
 
 /* Header */
 
