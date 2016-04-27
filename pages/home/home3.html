@@ -122,81 +122,75 @@
                     </div>
                 </form>
             </div>
-            <!--END DONOR INFO-->
+        </div>
+        <!--END DONOR INFO-->
 
-            <!--Schedule & Reject -->
-            <div class="col-xs-6">
-                <div class="form-group">
-                    <div class="col-xs-12 col-sm-6">
-                        <label for="pickupDays">Day: </label>
-                        <select class="form-control">
-                            <option value="1">Fri Apr 22 5 Pickups</option>
-                            <option value="2">Mon Apr 25 3 Pickups</option>
-                            <option value="3">Thu Apr 28 8 Pickups</option>
-                            <option value="3">Mon May 2 0 Pickups</option>
-                        </select>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <label for="rejectReson">Reason: </label>
-                        <select class="form-control">
-                            <option value="1">Damaged</option>
-                            <option value="2">Not First Floor</option>
-                            <option value="3">Too Far away</option>
-                        </select>
-                    </div>
+        <!--Schedule & Reject -->
+        <div class="col-xs-6">
+            <div class="form-group">
+                <div class="col-xs-12 col-sm-6">
+                    <label for="pickupDays">Day: </label>
+                    <select class="form-control">
+                        <option value="1">Fri Apr 22 (5 Pickups)</option>
+                        <option value="2">Mon Apr 25 (3 Pickups)</option>
+                        <option value="3">Thu Apr 28 (8 Pickups)</option>
+                        <option value="3">Mon May 2 (0 Pickups)</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label for="rejectReson">Reason: </label>
+                    <select class="form-control">
+                        <option value="1">Damaged</option>
+                        <option value="2">Not First Floor</option>
+                        <option value="3">Too Far away</option>
+                    </select>
                 </div>
             </div>
-            <!-- END SCHEDULE & REJECT -->
+        </div>
+        <!-- END SCHEDULE & REJECT -->
 
-            <!-- Item Info -->
+        <!-- Item Info -->
 
-            <div class="col-xs-6">
-                <h5> Please enter the number of items to be donated, and a brief description of them.</h5>
-                <!--Number of Items-->
-                <form>
-                    <div class="form-group">
-                        <label for="numItems">Number of Items: </label>
-                        <select class="form-control">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3" selected>3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10+</option>
-                        </select>
-                    </div>
-
-                    <!-- Item & Donor Notes-->
-                    <!-- Max text input length 300 chars -->
-                    <div class="form-group">
-                        <label for="itemNotes">Item Notes </label>
-                        <textarea class="form-control custom-control" id="itemNotes" rows="5" maxlength="300" style="resize:none">Young adult bed frame, black bookshelf, black tall dresser with back cover.</textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="donorNotes">Donor Notes </label>
-                        <textarea class="form-control custom-control" id="donorNotes" rows="5" maxlength="300" style="resize:none">Knock on red door, donor will be home.</textarea>
-                    </div>
-
-                    <!-- Form sumbit-->
-                    <div class="padding-top">
-                        <div class="form-group">
-                            <a href="/pages/home/home1.html">
-                                <btn class="btn btn-success btn-wide extra-right-margin">Update Donor</btn>
-                            </a>
-                            <a href="/pages/home/home1.html">
-                                <btn class="btn btn-danger btn-wide">Cancel</btn>
-                            </a>
+        <div class="col-xs-6">
+            <h5> Please enter the number of items to be donated, and a brief description of them.</h5>
+            <!--Number of Items-->
+            <form>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="form-group col-xs-4">
+                            <label for="numItems">Number of Items:</label>
+                            <input class="form-control" type="number" id="numItems" min="1" />
                         </div>
                     </div>
-                </form>
-            </div>
-            <!-- END ITEM INFO-->
+                </div>
 
+                <!-- Item & Donor Notes-->
+                <!-- Max text input length 300 chars -->
+                <div class="form-group">
+                    <label for="itemNotes">Item Notes </label>
+                    <textarea class="form-control custom-control" id="itemNotes" rows="5" maxlength="300" style="resize:none">Young adult bed frame, black bookshelf, black tall dresser with back cover.</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="donorNotes">Donor Notes </label>
+                    <textarea class="form-control custom-control" id="donorNotes" rows="5" maxlength="300" style="resize:none">Knock on red door, donor will be home.</textarea>
+                </div>
+
+                <!-- Form sumbit-->
+                <div class="padding-top">
+                    <div class="form-group">
+                        <a href="/pages/home/home1.html">
+                            <btn class="btn btn-success btn-wide extra-right-margin">Update Donor</btn>
+                        </a>
+                        <a href="/pages/home/home1.html">
+                            <btn class="btn btn-danger btn-wide">Cancel</btn>
+                        </a>
+                    </div>
+                </div>
+            </form>
         </div>
+        <!-- END ITEM INFO-->
+
+    </div>
     </div>
 
     <!-- END MAIN CONTENT -->
