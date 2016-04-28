@@ -5,22 +5,14 @@
 <p>The UX V1.0 PDF can be found within this repository. These are the initial screens that were drafted for the web app.<p>
 
 <h2>Current List of Completed Screens</h2>
-  - Login
-  - Home.1
-  - Home.2
-  - Home.3
-  - Schedule.1
-  - Schedule.2
-  - Schedule.3
-  - Reports.1
-  - Reports.2
-  - Reports.3
-  - Admin.1
-  - Admin.2
-  - Admin.3
-  
+- All screens completed as of April 26, 2016
   
 <h2>Change Log</h2>
+
+<h4>April 27, 2016</h4>
+- Added a hamburger menu for each page!
+- Made various changes per Krieger's request
+- Started working on making more of the pages mobile friendly (just like Bootstrap would have wanted...)
 
 <h4>April 26, 2016</h4>
 - Home.2 and Home.3 added
