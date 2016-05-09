@@ -51,6 +51,17 @@ a {
 }
 
 
+/*
+Class to accompany a .well on certain pages if the container needs to be slightly wider
+*/
+
+.extra-spacing {
+    padding-top: 30px;
+    margin-bottom: 90px;
+    padding-bottom: 30px;
+}
+
+
 /* Custom text sizing */
 
 .text-lg {
