@@ -86,6 +86,10 @@ Class to accompany a .well on certain pages if the container needs to be slightl
     width: 50%;
 }
 
+.ncc-button{
+	background-color: #000543;
+}
+
 
 /* Just needed some extra margin for some of the buttons */
 
@@ -164,7 +168,9 @@ input[type=number] {
 }
 
 .navbarAbout {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+	opacity: .8;
+	background-color: #000543;
 }
 
 .custom-navbar {
@@ -187,3 +193,4 @@ nav.navbar {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+

@@ -17,10 +17,10 @@ margin-top: 60px;
 
 }
 
-
+/* NEEED TO MAKE RESPONSIVE */
 .hexrow > div {
     width: 100px;
-    height: 173.2px; /* ( width x cos(30) ) x 2 */
+    height:173.2px; /*( width x cos(30) ) x 2 */
     /* For margin:
     right/left = ( width x sin(30) ) makes no overlap 
     right/left = (( width x sin(30) ) / 2) leaves a narrow separation
@@ -241,7 +241,7 @@ opacity: 0;
 
 /*Hex Row 2 - 1 */
 .hexrow:nth-child(2) > div:nth-child(1) {
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/Bilal_about.jpg);
 }
 
 .hexrow:nth-child(2) > div:nth-child(1) > span {
@@ -350,7 +350,6 @@ opacity: 0;
 	font-size: 16px;
 	text-align: center;
 vertical-align: middle;
-line-height: 90px; 	
 }
 
 
