@@ -9,7 +9,14 @@ body {
 }
 
 .ncc {
-    background-color: #C1272D;
+    background-color: #000543;
+	
+}
+
+.ncc-img {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-image:url(../images/transparent_Space.png);
 }
 
 
@@ -157,7 +164,7 @@ input[type=number] {
 }
 
 .navbarAbout {
-    padding-bottom: 70px;
+    padding-bottom: 60px;
 }
 
 .custom-navbar {
